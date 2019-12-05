@@ -17,3 +17,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 4: Secure Container](https://adventofcode.com/2019/day/4)
     - [Script for part 1](04/script_part_1.py)
     - [Script for part 2](04/script_part_2.py)
+- [Day 5: Sunny with a Chance of Asteroids](https://adventofcode.com/2019/day/5)
+    - [Script for part 1](05/script_part_1.py)
+    - [Script for part 2](05/script_part_2.py)
