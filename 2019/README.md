@@ -11,4 +11,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 2: 1202 Program Alarm](https://adventofcode.com/2019/day/2)
     - [Script for part 1](02/script_part_1.py)*
     - [Script for part 2](02/script_part_2.py)
-
+- [Day 3: Crossed Wires](https://adventofcode.com/2019/day/3)
+    - [Script for part 1](03/script_part_1.py)
+    - [Script for part 2](03/script_part_2.py)
