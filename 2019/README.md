@@ -14,3 +14,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 3: Crossed Wires](https://adventofcode.com/2019/day/3)
     - [Script for part 1](03/script_part_1.py)
     - [Script for part 2](03/script_part_2.py)
+- [Day 4: Secure Container](https://adventofcode.com/2019/day/4)
+    - [Script for part 1](04/script_part_1.py)
+    - [Script for part 2](04/script_part_2.py)
