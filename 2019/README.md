@@ -20,3 +20,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 5: Sunny with a Chance of Asteroids](https://adventofcode.com/2019/day/5)
     - [Script for part 1](05/script_part_1.py)
     - [Script for part 2](05/script_part_2.py)
+- [Day 6: Universal Orbit Map](https://adventofcode.com/2019/day/6)
+    - [Script for part 1](06/script_part_1.py)
+    - [Script for part 2](06/script_part_2.py)
