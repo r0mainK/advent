@@ -6,7 +6,7 @@ import sys
 from typing import Callable
 
 
-def get_parameter_pointer(parameter_index: int):
+def set_parameter_pointer(parameter_index: int):
     if len(instruction) < 2 + parameter_index or instruction[-(2 + parameter_index)] == "0":
         parameter_pointers[parameter_index] = program[instruction_pointer + parameter_index]
         return
@@ -70,7 +70,7 @@ for phase_setting in itertools.permutations(range(5)):
             op_code = instruction[-1]
             pointer_delta, op = op_code_map[op_code]
             for i in range(1, pointer_delta):
-                get_parameter_pointer(i)
+                set_parameter_pointer(i)
             instruction_output = op()
             if instruction_output is not None:
                 if op_code in ["5", "6"]:

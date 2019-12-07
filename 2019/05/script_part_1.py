@@ -4,7 +4,7 @@ import sys
 from typing import Callable
 
 
-def get_parameter_pointer(parameter_index: int):
+def set_parameter_pointer(parameter_index: int):
     if len(instruction) < 2 + parameter_index or instruction[-(2 + parameter_index)] == "0":
         parameter_pointers[parameter_index] = program[instruction_pointer + parameter_index]
         return
@@ -52,6 +52,6 @@ while program[instruction_pointer] != 99:
     instruction = str(program[instruction_pointer])
     pointer_delta, op = op_code_map[instruction[-1]]
     for i in range(1, pointer_delta):
-        get_parameter_pointer(i)
+        set_parameter_pointer(i)
     op()
     instruction_pointer += pointer_delta
