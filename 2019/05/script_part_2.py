@@ -25,7 +25,7 @@ def print_diagnostic():
     print("diagnostic code: %d" % program[parameter_pointers[1]])
 
 
-def jump_op(op: Callable[[int, int], bool]):
+def jump_op(op: Callable[[int, int], bool]) -> int:
     if op(program[parameter_pointers[1]], 0):
         return program[parameter_pointers[2]]
 

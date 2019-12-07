@@ -23,11 +23,11 @@ def acquire_input():
     program[parameter_pointers[1]] = next(amplifier_inputs)
 
 
-def output_signal():
+def output_signal() -> int:
     return program[parameter_pointers[1]]
 
 
-def jump_op(op: Callable[[int, int], bool]):
+def jump_op(op: Callable[[int, int], bool]) -> int:
     if op(program[parameter_pointers[1]], 0):
         return program[parameter_pointers[2]]
 
