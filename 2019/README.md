@@ -23,3 +23,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 6: Universal Orbit Map](https://adventofcode.com/2019/day/6)
     - [Script for part 1](06/script_part_1.py)
     - [Script for part 2](06/script_part_2.py)
+- [Day 7: Amplification Circuit](https://adventofcode.com/2019/day/7)
+    - [Script for part 1](07/script_part_1.py)
+    - [Script for part 2](07/script_part_2.py)
