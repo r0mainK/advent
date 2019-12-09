@@ -29,3 +29,5 @@ Scripts with an asterisk can be run in test mode.
 - [Day 8: Space Image Format](https://adventofcode.com/2019/day/8)
     - [Script for part 1](08/script_part_1.py)
     - [Script for part 2](08/script_part_2.py)
+- [Day 9: Sensor Boost](https://adventofcode.com/2019/day/9)
+    - [Script for part 1 and 2](09/script.py)
