@@ -3,7 +3,7 @@ import itertools
 import operator
 from pathlib import Path
 import sys
-from typing import Callable
+from typing import Callable, Optional
 
 
 def set_parameter_pointer(parameter_index: int):
@@ -27,7 +27,7 @@ def output_signal() -> int:
     return program[parameter_pointers[1]]
 
 
-def jump_op(op: Callable[[int, int], bool]) -> int:
+def jump_op(op: Callable[[int, int], bool]) -> Optional[int]:
     if op(program[parameter_pointers[1]], 0):
         return program[parameter_pointers[2]]
 
