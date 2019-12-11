@@ -33,3 +33,6 @@ Scripts with an asterisk can be run in test mode.
     - [Script for part 1 and 2](09/script.py)
 - [Day 10: Monitoring Station](https://adventofcode.com/2019/day/10)
     - [Script for part 1 and 2](10/script.py)
+- [Day 11: Space Police](https://adventofcode.com/2019/day/11)
+    - [Script for part 1](11/script_part_1.py)
+    - [Script for part 2](11/script_part_2.py)
