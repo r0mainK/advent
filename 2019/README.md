@@ -36,3 +36,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 11: Space Police](https://adventofcode.com/2019/day/11)
     - [Script for part 1](11/script_part_1.py)
     - [Script for part 2](11/script_part_2.py)
+- [Day 12: The N-Body Problem](https://adventofcode.com/2019/day/12)
+    - [Script for part 1](12/script_part_1.py)
+    - [Script for part 2](12/script_part_2.py)
