@@ -39,3 +39,6 @@ Scripts with an asterisk can be run in test mode.
 - [Day 12: The N-Body Problem](https://adventofcode.com/2019/day/12)
     - [Script for part 1](12/script_part_1.py)
     - [Script for part 2](12/script_part_2.py)
+- [Day 13: Care Package](https://adventofcode.com/2019/day/13)
+    - [Script for part 1](13/script_part_1.py)
+    - [Script for part 2](13/script_part_2.py)
