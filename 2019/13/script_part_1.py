@@ -52,11 +52,11 @@ def update_base():
     pointers["base"] += program[pointers["parameter_1"]]
 
 
-# if len(sys.argv) != 2:
-#     print("please pass the path to your input file (and nothing else)")
-#     sys.exit(1)
+if len(sys.argv) != 2:
+    print("please pass the path to your input file (and nothing else)")
+    sys.exit(1)
 
-p = Path(__file__).parent / "data.txt"  # Path(sys.argv[1])
+p = Path(__file__).parent / Path(sys.argv[1])
 
 if not p.exists():
     print("%s does not point to a valid input file" % p)
