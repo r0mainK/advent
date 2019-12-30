@@ -2,19 +2,17 @@
 
 ## Description
 
-This repository contains polished Python scripts which solve the [Advent of Code](https://adventofcode.com/). As 2019 is the first year I participate, it's the only year for now.
+This repository contains polished Python scripts which solve the [Advent of Code](https://adventofcode.com/). As 2019 is the first year I participate, it's the only year for now. I try not to comment anything when I code and instead use clear naming and typing, but comments will be added if something is not clear (e.g. math).
 
 ## Usage
 
 All scripts will be runnable with the following syntax:
 
 ```
-python3 script.py <input_file>
+python3 script_name.py
 ```
 
-In some cases, the logic is changed when running on the actual input rather then on test data. For the associated scripts, it's possible to add the string `test` as a second optional argument, to indicate this behavior is wanted. 
-
-___NOTE:___ _Remove newlines at the end of the input files, it may break some scripts._
+The scripts _should_ run with any version of Python 3.6 or above, no external library required. If you want to use your data instead of mine for a given day, simply replace it in the appropriate file. I will include a script for each part except in the case where the script for the second part involves only appending code to the one for the first. Any code reused often will be place in the utils directory (e.g. the IntCode Machine of 2019).
 
 ## Index
 
