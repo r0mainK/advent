@@ -53,3 +53,6 @@
 - [Day 17: Set and Forget](https://adventofcode.com/2019/day/17)
     - [Script for part 1](17_part_1.py)
     - [Script for part 2](17_part_2.py)
+- [Day 18: Many-Worlds Interpretation](https://adventofcode.com/2019/day/18)
+    - [Script for part 1](18_part_1.py)
+    - [Script for part 2](18_part_2.py)
