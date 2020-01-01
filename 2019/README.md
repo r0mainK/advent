@@ -47,3 +47,6 @@
     - [Script for part 2](14_part_2.py)
 - [Day 15: Oxygen System](https://adventofcode.com/2019/day/15)
     - [Script for part 1 and 2](15.py)
+- [Day 16: Flawed Frequency Transmission](https://adventofcode.com/2019/day/16)
+    - [Script for part 1](16_part_1.py)
+    - [Script for part 2](16_part_2.py)
