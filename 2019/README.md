@@ -62,3 +62,6 @@
 - [Day 20: Donut Maze](https://adventofcode.com/2019/day/20)
     - [Script for part 1](20_part_1.py)
     - [Script for part 2](20_part_2.py)
+- [Day 21: Springdroid Adventure](https://adventofcode.com/2019/day/21)
+    - [Script for part 1](21_part_1.py)
+    - [Script for part 2](21_part_2.py)
