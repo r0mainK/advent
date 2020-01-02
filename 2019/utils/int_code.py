@@ -74,10 +74,10 @@ class BareIntCodeMachine:
         return self
 
     def __next__(self):
-        op_code = self.parse_instruction()
-        if op_code == 99:
+        self.op_code = self.parse_instruction()
+        if self.op_code == 99:
             raise StopIteration
-        return self.op_code_map[op_code]()
+        return self.op_code_map[self.op_code]()
 
 
 class IntCodeMachine(BareIntCodeMachine):
