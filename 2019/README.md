@@ -59,3 +59,6 @@
 - [Day 19: Tractor Beam](https://adventofcode.com/2019/day/19)
     - [Script for part 1](19_part_1.py)
     - [Script for part 2](19_part_2.py)
+- [Day 20: Donut Maze](https://adventofcode.com/2019/day/20)
+    - [Script for part 1](20_part_1.py)
+    - [Script for part 2](20_part_2.py)
