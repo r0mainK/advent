@@ -56,3 +56,6 @@
 - [Day 18: Many-Worlds Interpretation](https://adventofcode.com/2019/day/18)
     - [Script for part 1](18_part_1.py)
     - [Script for part 2](18_part_2.py)
+- [Day 19: Tractor Beam](https://adventofcode.com/2019/day/19)
+    - [Script for part 1](19_part_1.py)
+    - [Script for part 2](19_part_2.py)
