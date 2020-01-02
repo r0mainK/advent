@@ -68,3 +68,6 @@
 - [Day 22: Slam Shuffle](https://adventofcode.com/2019/day/22)
     - [Script for part 1](22_part_1.py)
     - [Script for part 2](22_part_2.py)
+- [Day 23: Category Six](https://adventofcode.com/2019/day/23)
+    - [Script for part 1](23_part_1.py)
+    - [Script for part 2](23_part_2.py)
