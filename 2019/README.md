@@ -71,3 +71,6 @@
 - [Day 23: Category Six](https://adventofcode.com/2019/day/23)
     - [Script for part 1](23_part_1.py)
     - [Script for part 2](23_part_2.py)
+- [Day 24: Planet of Discord](https://adventofcode.com/2019/day/24)
+    - [Script for part 1](24_part_1.py)
+    - [Script for part 2](24_part_2.py)
