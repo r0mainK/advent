@@ -12,7 +12,7 @@ All scripts will be runnable with the following syntax:
 python3 script_name.py
 ```
 
-The scripts _should_ run with any version of Python 3.6 or above, no external library required. If you want to use your data instead of mine for a given day, simply replace it in the appropriate file. I will include a script for each part except in the case where the script for the second part involves only appending code to the one for the first. Any code reused often will be place in the utils directory (e.g. the IntCode Machine of 2019).
+The scripts _should_ run with any version of Python 3.6 or above, no external library required. If you want to use your data instead of mine for a given day, simply replace it in the appropriate file. I will include a script for each part except in the case where the script for the second part involves only appending code to the one for the first. Any code reused often will be placed in the `utils` directory of the given year (e.g. the IntCode Machine of 2019).
 
 ## Index
 
