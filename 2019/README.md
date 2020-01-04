@@ -74,3 +74,5 @@
 - [Day 24: Planet of Discord](https://adventofcode.com/2019/day/24)
     - [Script for part 1](24_part_1.py)
     - [Script for part 2](24_part_2.py)
+- [Day 25: Cryostasis](https://adventofcode.com/2019/day/25)
+    - [Script for part 1 (no part 2)](25.py)
