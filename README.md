@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains polished Python scripts which solve the [Advent of Code](https://adventofcode.com/). As 2019 is the first year I participate, it's the only year for now. I try not to comment anything when I code and instead use clear naming and typing, but comments will be added if something is not clear (e.g. math).
+This repository contains polished Python scripts which solve the [Advent of Code](https://adventofcode.com/). ~As 2019 is the first year I participate, it's the only year for now.~ YEAR 2 BOY ! I try not to comment anything when I code and instead use clear naming and typing, but comments will be added if something is not clear (e.g. math).
 
 ## Usage
 
@@ -17,6 +17,7 @@ The scripts _should_ run with any version of Python 3.6 or above, no external li
 ## Index
 
 - [2019](2019/README.md)
+- [2020](2020/README.md)
 
 ## License
 
