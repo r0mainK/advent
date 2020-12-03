@@ -9,3 +9,6 @@
 - [Day 2: Password Philosophy](https://adventofcode.com/2020/day/2) 
     - [Script for part 1](02_part_1.py)
     - [Script for part 2](02_part_2.py)
+- [Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3) 
+    - [Script for part 1](03_part_1.py)
+    - [Script for part 2](03_part_2.py)
