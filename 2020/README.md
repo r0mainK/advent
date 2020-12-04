@@ -12,3 +12,6 @@
 - [Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3) 
     - [Script for part 1](03_part_1.py)
     - [Script for part 2](03_part_2.py)
+- [Day 4: Passport Processing](https://adventofcode.com/2020/day/4) 
+    - [Script for part 1](04_part_1.py)
+    - [Script for part 2](04_part_2.py)
