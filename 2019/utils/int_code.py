@@ -2,7 +2,9 @@ from collections import defaultdict
 from copy import deepcopy
 import operator
 from pathlib import Path
-from typing import Callable, DefaultDict, Optional
+from typing import Callable
+from typing import DefaultDict
+from typing import Optional
 
 
 def read_int_code(path: Path):
@@ -12,7 +14,9 @@ def read_int_code(path: Path):
 
 class BareIntCodeMachine:
     def __init__(
-        self, program: DefaultDict[int, int], input_function: Optional[Callable[[], int]] = None,
+        self,
+        program: DefaultDict[int, int],
+        input_function: Optional[Callable[[], int]] = None,
     ):
         self.memory = deepcopy(program)
         self.reboot()
@@ -82,7 +86,9 @@ class BareIntCodeMachine:
 
 class IntCodeMachine(BareIntCodeMachine):
     def __init__(
-        self, program: DefaultDict[int, int], input_function: Optional[Callable[[], int]] = None,
+        self,
+        program: DefaultDict[int, int],
+        input_function: Optional[Callable[[], int]] = None,
     ):
         super().__init__(program, input_function)
 

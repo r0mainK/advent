@@ -1,5 +1,6 @@
 from collections import defaultdict
-from heapq import heappop, heappush
+from heapq import heappop
+from heapq import heappush
 from itertools import product
 from pathlib import Path
 

@@ -1,7 +1,8 @@
 from itertools import combinations
 from pathlib import Path
 
-from utils.int_code import IntCodeMachine, read_int_code
+from utils.int_code import IntCodeMachine
+from utils.int_code import read_int_code
 
 
 program = read_int_code(Path(__file__).parent / "data" / "17.txt")
@@ -83,7 +84,7 @@ program[0] = 2
 input_sequence = map(ord, "\n".join([main_routine, "\n".join(routines), "n", ""]))
 machine = IntCodeMachine(program, lambda: next(input_sequence))
 
-for dust in machine:
+for _dust in machine:
     pass
 
-print(f"amount of dust the vacuum robot collected: {dust}")
+print(f"amount of dust the vacuum robot collected: {_dust}")

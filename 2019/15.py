@@ -1,7 +1,9 @@
 from pathlib import Path
-from typing import Iterator, Tuple
+from typing import Iterator
+from typing import Tuple
 
-from utils.int_code import IntCodeMachine, read_int_code
+from utils.int_code import IntCodeMachine
+from utils.int_code import read_int_code
 
 
 def get_adjacent(position: Tuple[int, int]) -> Iterator[Tuple[Tuple[int, int], int]]:

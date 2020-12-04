@@ -1,7 +1,9 @@
 from pathlib import Path
-from typing import List, Tuple
+from typing import List
+from typing import Tuple
 
-from utils.int_code import IntCodeMachine, read_int_code
+from utils.int_code import IntCodeMachine
+from utils.int_code import read_int_code
 
 
 def run_until_command() -> str:
@@ -9,8 +11,9 @@ def run_until_command() -> str:
     try:
         while not output.endswith("Command?\n"):
             output += str(chr(next(machine)))
-    finally:
-        return output
+    except BaseException:
+        pass
+    return output
 
 
 def parse_output(output: str) -> Tuple[List[str], List[str], bool]:
@@ -87,10 +90,10 @@ for i in range(1, 2 ** len(objects) + 1):
         print(output.splitlines()[-1])
         break
     gray_code = f"{i ^( i >> 1):008b}"
-    for j, object_name in enumerate(objects):
+    for j, _object_name in enumerate(objects):
         if previous_gray_code[j] != gray_code[j]:
             break
     order = "drop" * (gray_code[j] == "1") + "take" * (gray_code[j] != "1")
     previous_gray_code = gray_code
-    instruction = map(ord, f"{order} {object_name}\n")
+    instruction = map(ord, f"{order} {_object_name}\n")
     run_until_command()

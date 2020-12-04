@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from utils.int_code import BareIntCodeMachine, read_int_code
+from utils.int_code import BareIntCodeMachine
+from utils.int_code import read_int_code
 
 
 program = read_int_code(Path(__file__).parent / "data" / "02.txt")

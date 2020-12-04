@@ -1,5 +1,6 @@
 from pathlib import Path
 
+
 deck_size = 119315717514047
 num_shuffles = 101741582076661
 slope, intercept = 1, 0

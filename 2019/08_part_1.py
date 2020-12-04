@@ -15,4 +15,4 @@ for i in range(len(digits) // image_size):
         min_zero_count = zero_count
         result = layer.count("1") * layer.count("2")
 
-print("number of 1 digits times number of 2 digits in layer with fewest 0 digits: %d" % result)
+print(f"number of 1 digits times number of 2 digits in layer with fewest 0 digits: {result}")

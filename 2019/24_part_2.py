@@ -37,7 +37,9 @@ for i in range(1, 201):
     next_layout = layout.copy()
     for level in range(-i, i + 1):
         for position, adjacent_positions in adjacent_positions_map.items():
-            bug_count = sum(layout[level + offset, (i, j)] for offset, (i, j) in adjacent_positions)
+            bug_count = sum(
+                layout[level + offset, (i, j)] for offset, (i, j) in adjacent_positions
+            )
             if layout[level, position] and bug_count != 1:
                 next_layout[level, position] = 0
             elif not layout[level, position] and bug_count in {1, 2}:

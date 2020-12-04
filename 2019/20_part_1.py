@@ -1,4 +1,5 @@
-from itertools import permutations, product
+from itertools import permutations
+from itertools import product
 from pathlib import Path
 
 
