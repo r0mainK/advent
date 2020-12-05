@@ -3,7 +3,7 @@ import math
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "10.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "10.txt").open() as fin:
     asteroids = {
         (i, j)
         for i, line in enumerate(fin.read().splitlines())

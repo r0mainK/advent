@@ -11,7 +11,7 @@ def binary_split(seq: str, M: int) -> int:
     return m
 
 
-with (Path(__file__).parent / "data" / "05.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "05.txt").open() as fin:
     seat_ids = set()
     for line in map(str.strip, fin):
         row = binary_split(line[:7], 127)

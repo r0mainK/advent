@@ -8,7 +8,7 @@ from typing import Optional
 
 
 def read_int_code(path: Path):
-    with path.open("r", encoding="utf-8") as fin:
+    with path.open() as fin:
         return defaultdict(int, enumerate(map(int, fin.readline().split(","))))
 
 

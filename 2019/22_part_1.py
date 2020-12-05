@@ -4,7 +4,7 @@ from pathlib import Path
 card = 2019
 deck_size = 10007
 
-with (Path(__file__).parent / "data" / "22.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "22.txt").open() as fin:
     for instruction in fin.read().splitlines():
         instruction = instruction.split(" ")
         if instruction[-1] == "stack":

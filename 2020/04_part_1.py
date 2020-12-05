@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "04.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "04.txt").open() as fin:
     count = 0
     cur_passport_fields = set()
     required_fields = {"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"}

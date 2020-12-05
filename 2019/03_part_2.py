@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "03.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "03.txt").open() as fin:
     path_1, path_2 = [path.split(",") for path in fin.readlines()]
 
 direction_map = {

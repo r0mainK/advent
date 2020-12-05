@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "01.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "01.txt").open() as fin:
     expense_report = set(map(int, fin))
 
 for i in expense_report:

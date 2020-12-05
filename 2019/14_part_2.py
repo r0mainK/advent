@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Callable
 
 
-with (Path(__file__).parent / "data" / "14.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "14.txt").open() as fin:
     reaction_inputs = {}
     reaction_outputs = {}
     for reaction in fin.read().splitlines():

@@ -2,7 +2,7 @@ from itertools import permutations
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "12.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "12.txt").open() as fin:
     moons = {i: {"velocity": [0, 0, 0]} for i in range(4)}
     for i, line in enumerate(fin.read().splitlines()):
         moons[i]["position"] = [int(pos.split("=")[1]) for pos in line[1:-1].split(",")]

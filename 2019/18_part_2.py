@@ -28,7 +28,7 @@ def find_reachable_keys(base_position):
     return base_to_key
 
 
-with (Path(__file__).parent / "data" / "18.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "18.txt").open() as fin:
     vault = fin.read().splitlines()
 
 key_positions = {}

@@ -33,7 +33,7 @@ def validate(passport: DefaultDict[str, str]) -> int:
     )
 
 
-with (Path(__file__).parent / "data" / "04.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "04.txt").open() as fin:
     count = 0
     cur_passport = defaultdict(str)
     for line in map(str.strip, fin):

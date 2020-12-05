@@ -5,7 +5,7 @@ deck_size = 119315717514047
 num_shuffles = 101741582076661
 slope, intercept = 1, 0
 # Use modular arithmetic to transform the whole shuffle to a linear transformation of the position
-with (Path(__file__).parent / "data" / "22.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "22.txt").open() as fin:
     for instruction in fin.read().splitlines():
         instruction = instruction.split(" ")
         if instruction[-1] == "stack":

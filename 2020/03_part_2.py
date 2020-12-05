@@ -3,7 +3,7 @@ from operator import mul
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "03.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "03.txt").open() as fin:
     slopes = [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]
     positions = [(0, 0) for _ in slopes]
     tree_counts = [0 for _ in slopes]

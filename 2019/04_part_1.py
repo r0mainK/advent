@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "04.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "04.txt").open() as fin:
     start, end = fin.read().split("-")
 
 position = ([i < j for i, j in zip(start[:-1], start[1:])] + [False]).index(False) + 1

@@ -2,7 +2,7 @@ from itertools import product
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "24.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "24.txt").open() as fin:
     layout = {}
     for i, line in enumerate(fin.read().splitlines()):
         for j, tile in enumerate(line):

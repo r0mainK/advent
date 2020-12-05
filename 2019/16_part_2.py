@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "16.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "16.txt").open() as fin:
     digits = list(map(int, fin.readline())) * 10000
 
 offset = int("".join(map(str, digits[:7])))

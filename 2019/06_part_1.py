@@ -2,7 +2,7 @@ from collections import defaultdict
 from pathlib import Path
 
 
-with (Path(__file__).parent / "data" / "06.txt").open("r", encoding="utf-8") as fin:
+with (Path(__file__).parent / "data" / "06.txt").open() as fin:
     direct_orbits = defaultdict(set)
     for line in fin.read().splitlines():
         planet, satellite = line.split(")")
