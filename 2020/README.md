@@ -15,3 +15,6 @@
 - [Day 4: Passport Processing](https://adventofcode.com/2020/day/4) 
     - [Script for part 1](04_part_1.py)
     - [Script for part 2](04_part_2.py)
+- [Day 5: Binary Boarding](https://adventofcode.com/2020/day/5) 
+    - [Script for part 1](05_part_1.py)
+    - [Script for part 2](05_part_2.py)
