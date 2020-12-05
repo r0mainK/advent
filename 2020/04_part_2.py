@@ -36,7 +36,7 @@ def validate(passport: DefaultDict[str, str]) -> int:
 with (Path(__file__).parent / "data" / "04.txt").open("r", encoding="utf-8") as fin:
     count = 0
     cur_passport = defaultdict(str)
-    for line in map(str.strip, fin.readlines()):
+    for line in map(str.strip, fin):
         if not line and cur_passport:
             count += validate(cur_passport)
             cur_passport = defaultdict(str)

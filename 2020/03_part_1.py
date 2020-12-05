@@ -4,7 +4,7 @@ from pathlib import Path
 with (Path(__file__).parent / "data" / "03.txt").open("r", encoding="utf-8") as fin:
     tree_count = 0
     i = 0
-    for line in map(str.strip, fin.readlines()):
+    for line in map(str.strip, fin):
         tree_count += int(line[i] == "#")
         i = (i + 3) % len(line)
 
