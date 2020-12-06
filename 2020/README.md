@@ -18,3 +18,6 @@
 - [Day 5: Binary Boarding](https://adventofcode.com/2020/day/5) 
     - [Script for part 1](05_part_1.py)
     - [Script for part 2](05_part_2.py)
+- [Day 6: Custom Customs](https://adventofcode.com/2020/day/6)
+    - [Script for part 1](06_part_1.py)
+    - [Script for part 2](06_part_2.py)
