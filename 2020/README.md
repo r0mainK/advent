@@ -21,3 +21,6 @@
 - [Day 6: Custom Customs](https://adventofcode.com/2020/day/6)
     - [Script for part 1](06_part_1.py)
     - [Script for part 2](06_part_2.py)
+- [Day 7: Handy Haversacks](https://adventofcode.com/2020/day/7)
+    - [Script for part 1](07_part_1.py)
+    - [Script for part 2](07_part_2.py)
