@@ -24,3 +24,6 @@
 - [Day 7: Handy Haversacks](https://adventofcode.com/2020/day/7)
     - [Script for part 1](07_part_1.py)
     - [Script for part 2](07_part_2.py)
+- [Day 8: Handheld Halting](https://adventofcode.com/2020/day/8)
+    - [Script for part 1](08_part_1.py)
+    - [Script for part 2](08_part_2.py)
