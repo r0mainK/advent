@@ -27,3 +27,5 @@
 - [Day 8: Handheld Halting](https://adventofcode.com/2020/day/8)
     - [Script for part 1](08_part_1.py)
     - [Script for part 2](08_part_2.py)
+- [Day 9: Encoding Error](https://adventofcode.com/2020/day/9)
+    - [Script for part 1 and 2](09.py)
