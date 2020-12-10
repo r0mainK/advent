@@ -29,3 +29,7 @@
     - [Script for part 2](08_part_2.py)
 - [Day 9: Encoding Error](https://adventofcode.com/2020/day/9)
     - [Script for part 1 and 2](09.py)
+- [Day 10: Adapter Array](https://adventofcode.com/2020/day/10)
+    - [Script for part 1](10_part_1.py)
+    - [Script for part 2](10_part_2.py)
+    
