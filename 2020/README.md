@@ -32,4 +32,6 @@
 - [Day 10: Adapter Array](https://adventofcode.com/2020/day/10)
     - [Script for part 1](10_part_1.py)
     - [Script for part 2](10_part_2.py)
-    
+- [Day 11: Seating System](https://adventofcode.com/2020/day/11)
+    - [Script for part 1](11_part_1.py)
+    - [Script for part 2](11_part_2.py)
