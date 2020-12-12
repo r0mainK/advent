@@ -35,3 +35,6 @@
 - [Day 11: Seating System](https://adventofcode.com/2020/day/11)
     - [Script for part 1](11_part_1.py)
     - [Script for part 2](11_part_2.py)
+- [Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
+    - [Script for part 1](12_part_1.py)
+    - [Script for part 2](12_part_2.py)
