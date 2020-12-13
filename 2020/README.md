@@ -38,3 +38,6 @@
 - [Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
     - [Script for part 1](12_part_1.py)
     - [Script for part 2](12_part_2.py)
+- [Day 12: Shuttle Search](https://adventofcode.com/2020/day/13)
+    - [Script for part 1](13_part_1.py)
+    - [Script for part 2](13_part_2.py)
