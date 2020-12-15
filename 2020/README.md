@@ -44,3 +44,5 @@
 - [Day 14: Docking Data](https://adventofcode.com/2020/day/14)
     - [Script for part 1](14_part_1.py)
     - [Script for part 2](14_part_2.py)
+- [Day 15: Rambunctious Recitation](https://adventofcode.com/2020/day/15)
+    - [Script for part 1 and 2](15.py)
