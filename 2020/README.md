@@ -46,3 +46,5 @@
     - [Script for part 2](14_part_2.py)
 - [Day 15: Rambunctious Recitation](https://adventofcode.com/2020/day/15)
     - [Script for part 1 and 2](15.py)
+- [Day 16: Ticket Translation](https://adventofcode.com/2020/day/16)
+    - [Script for part 1 and 2](16.py)
