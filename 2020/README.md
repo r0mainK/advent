@@ -48,3 +48,5 @@
     - [Script for part 1 and 2](15.py)
 - [Day 16: Ticket Translation](https://adventofcode.com/2020/day/16)
     - [Script for part 1 and 2](16.py)
+- [Day 17: Conway Cubes](https://adventofcode.com/2020/day/17)
+    - [Script for part 1 and 2](17.py)
