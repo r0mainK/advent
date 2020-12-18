@@ -50,3 +50,6 @@
     - [Script for part 1 and 2](16.py)
 - [Day 17: Conway Cubes](https://adventofcode.com/2020/day/17)
     - [Script for part 1 and 2](17.py)
+- [Day 18: Operation Order](https://adventofcode.com/2020/day/18)
+    - [Script for part 1](18_part_1.py)
+    - [Script for part 2](18_part_2.py)
