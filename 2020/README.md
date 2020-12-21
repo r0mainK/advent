@@ -53,3 +53,6 @@
 - [Day 18: Operation Order](https://adventofcode.com/2020/day/18)
     - [Script for part 1](18_part_1.py)
     - [Script for part 2](18_part_2.py)
+- [Day 19: Monster Messages](https://adventofcode.com/2020/day/19)
+    - [Script for part 1](19_part_1.py)
+    - [Script for part 2](19_part_2.py)
