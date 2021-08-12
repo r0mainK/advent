@@ -56,3 +56,8 @@
 - [Day 19: Monster Messages](https://adventofcode.com/2020/day/19)
     - [Script for part 1](19_part_1.py)
     - [Script for part 2](19_part_2.py)
+- [Day 20: Jurassic Jigsaw](https://adventofcode.com/2020/day/20)
+    - [Script for part 1](20_part_1.py)
+    - [Script for part 2](20_part_2.py)
+- [Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)
+    - [Script for part 1 and 2](21.py)
